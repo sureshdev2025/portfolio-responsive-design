@@ -200,9 +200,29 @@ footer input[type="text"], footer input[type="email"], footer textarea{
 @media screen and (max-width: 576px) {
     .skills-container, 
     .resume-container, 
+    .banner,
+    nav,
+    nav > ul,
     footer, 
     .about-items {
         flex-direction: column;
+    }
+
+    nav > ul {
+        gap: 10px;
+    }
+
+    .btn-primary {
+        margin-bottom: 20px;
+    }
+    .banner {
+        margin: 20px;
+    }
+    .banner-profile-pic {
+        width: 100%;
+    }
+    .header {
+        background-image: none;
     }
     footer, .about {
         padding: 20px;
